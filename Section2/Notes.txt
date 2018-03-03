@@ -1,0 +1,23 @@
+Lesson 6: Syntax Parsers, Execution Contexts, and Lexical Environments
+1) Syntax Parser - A program that reads your code and determines what it does and if its grammar is valid.
+1a) After syntax parser validates code, the code is either compiled or interpreted.
+2) Lexical Environment - Where something sits physically in the code you write.
+3) Execution Context - A wrapper to help manage the code that is running.
+
+Lesson 7: Name/Value Pairs and Objects
+1) Name/Value Pair: A name which maps to a unique value.
+2) Object: A collection of name value pairs.
+
+Lesson 9: The Global Environment and the Global Object
+1) There may be multiple execution contexts that code may be running in.
+2) Global Execution Context creates a global object (collection of name value pairs accessible everywhere in code) and 'this' due to Javascript Engine
+3) Global Object = window in browser
+4) Global Object = 'this'
+5) Global = Not inside a function
+6) Outer Environment = Environment outside of inner execution context
+
+Lesson 10: The Execution Context - Creation and Hoisting
+1) Two phases exist for creating the execution context
+2) First Phase - Creation Phase: Global Object, 'this', Outer Environment, Memory Space for Variables and Functions (Hoisting)
+2a) Variables are declared
+2b) Functions and contained logic are placed into memory
