@@ -21,3 +21,19 @@ Lesson 10: The Execution Context - Creation and Hoisting
 2) First Phase - Creation Phase: Global Object, 'this', Outer Environment, Memory Space for Variables and Functions (Hoisting)
 2a) Variables are declared
 2b) Functions and contained logic are placed into memory
+
+Lesson 11: Javascript and 'Undefined'
+1) not defined != undefined
+2) undefined is a value in javascript
+3) Never explicity set 'a = undefined'. That is the responsibility of the interpreter.
+
+Lesson 12: The Execution Context - Code Execution
+1) Second Phase - Code Execution Phase: Code is run
+
+Lesson 13: Single Threaded, Synchronous Execution
+1) Single Threaded: One command executed at a time.
+2) Synchronous: One at a time.
+
+Lesson 14: Function Invocation and the Execution Stack
+1) Function Invocation: Running a function.
+
