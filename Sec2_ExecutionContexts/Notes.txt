@@ -36,4 +36,8 @@ Lesson 13: Single Threaded, Synchronous Execution
 
 Lesson 14: Function Invocation and the Execution Stack
 1) Function Invocation: Running a function.
+2) Execution Stack: Execution contexts on top of one another.
+3) For every executed function, a new execution context is created.
+
+Lesson 15: Functions, Context, and Variable Environments
 
