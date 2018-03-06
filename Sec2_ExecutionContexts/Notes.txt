@@ -40,4 +40,20 @@ Lesson 14: Function Invocation and the Execution Stack
 3) For every executed function, a new execution context is created.
 
 Lesson 15: Functions, Context, and Variable Environments
+1) Variable Environment: Where the variables live and how they relate to each other in memory.
+
+Lesson 16: The Scope Chain
+1) The reference to the Outer Environment depends upon where a piece of code sits lexically. Depends on when that piece of code was created in terms of execution context.
+2) Scope Chain = Execution Stack. If a variable cannot be found in execution context, the javascript engine will go down the scope chain to find that declared value.
+
+Lesson 17: Scope, ES6, and let
+1) Scope: Where a variable is available in your code.
+2) let: Can be used instead of var, but you cannot use it until it has been declared during runtime.
+
+Lesson 18: What About Asynchronous Callbacks?
+1) Asynchronous: More than one thread executing at a time.
+2) Browser contains the following components: Rending Engine, Javascript Engine, Http Request
+3) Event Queue: Items won't be proccessed until Execution Stack is empty.
+4) Browser asynchronously puts events into the Event Queue.
+
 
