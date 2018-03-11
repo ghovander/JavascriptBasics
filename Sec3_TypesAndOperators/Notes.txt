@@ -1,0 +1,16 @@
+Lesson 19: Types and Javascript
+1) Dynamic Typing: You don't tell the engine what type of data a variable holds, it figures it out while your code is running.
+2) Static Typing: Java or C# (e.g. bool isNew) - Type determined during compile time
+3) Dynamic Typing: Javascript (e.g. var isNew = true;) - Type determined during runtime
+
+Lesson 20: Primitive Types
+1) Primitive Type: A type of data that represents a single value.
+1a) Undefined - Represents a lack of existence (do not set to this)
+1b) Null - Represents a lack of existense (set to this)
+1c) Boolean - True or False
+1d) Number - Floating point number (there's always some decimals). Unlike other programming languages, there's only one 'number' type and it can make math weird.
+1e) String - A sequence of characters (both '' and "" can be used)
+1f) Symbol - Used in ES6
+
+Lesson 21: Operators
+1) Operator: A special function that is syntactically (written) differently
