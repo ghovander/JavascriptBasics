@@ -36,4 +36,10 @@ Lesson 25: Existence and Booleans
 Lesson 26: Default Values
 1) Logical OR Operator (||): Returns the value that can be coerced to true.
 
+Lesson 27: Default Values
+1) Multiple script tags in an html file results in all the js files being placed into one file and then being run.
+2) Variables with the same name in the same level of the execution context will be overriden by the last declared value.
+3) Many Javascript libraries with have a logical OR operator in the case that the value already exists in a previously loaded library.
+
+
 
