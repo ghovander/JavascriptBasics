@@ -7,3 +7,4 @@ Lesson 28: Objects and the Dot
 3) object.property = member access operator or dot operator
 
 Lesson 29: Objects and Object Literals
+1) Two ways of creating an object: New Method (var person = new Object()) and Object Literal (var person = {})
