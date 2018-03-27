@@ -1,4 +1,4 @@
-Lesson 28: Objects and the Dot
+Lesson 30: Objects and the Dot
 1) Objects can contain the following
 1a) Primitive "property"
 1b) Object "property"
@@ -6,5 +6,17 @@ Lesson 28: Objects and the Dot
 2) object[property] = computed member access operator (only to be used if you need dynamic access to property)
 3) object.property = member access operator or dot operator
 
-Lesson 29: Objects and Object Literals
+Lesson 31: Objects and Object Literals
 1) Two ways of creating an object: New Method (var person = new Object()) and Object Literal (var person = {})
+
+Lesson 32: Faking Namespaces
+1) Namespace: A container for variables and functions. Typically used to keep variables and functions with the same name separate.
+2) In javascript there is no concept of namespaces, so in order for multiple files not to override each others variables or functions it is
+recommended that variables and functions are stored in objects or objects nested in objects.
+
+Lesson 33: JSON and Object Literals
+1) JSON - JavaScript Object Notation
+2) JSON is always valid Javascript object literal syntax (not other way around). Must have quotations around names.
+
+Lesson 34: Functions are Objects
+1) First Class Functions: Everything you can do with other types you can do with functions. Assign them to variables, pass them around create them on the fly.

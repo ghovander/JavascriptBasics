@@ -1,8 +1,11 @@
-var a;
-//goes to internet and looks for a value
+console.log(1 < 2 < 3);
 
-a = "hi";
+var a = 0;
+var b = false;
 
-if(a){
-    console.log('Something is there.');
+if(a === b){
+    console.log('They are equal!');
+}
+else{
+    console.log('Nope, not equal.');
 }

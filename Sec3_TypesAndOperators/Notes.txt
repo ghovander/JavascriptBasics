@@ -23,20 +23,20 @@ Lesson 22: Operator Precedence and Associativity
 Lesson 23: Conceptual Aside: Coercion
 1) Coercion: Converting a value from one type to another.
 
-Lesson 24: Comparison Operators
+Lesson 25: Comparison Operators
 1) Associativity and coercion are important to considers when dealing with operators.
 2) Number(undefined) = NaN
 3) Number(null) = 0
 4) Equality (==): If the javascript engine determines that the types are different, one type will be coerced in order to make the Comparison.
 5) Strict Equality (===): If both operands are of the same type, they are not coerced. If there are two different types, the result will be false.
 
-Lesson 25: Existence and Booleans
+Lesson 27: Existence and Booleans
 1) "",Null,0 will be coerced to false
 
-Lesson 26: Default Values
+Lesson 28: Default Values
 1) Logical OR Operator (||): Returns the value that can be coerced to true.
 
-Lesson 27: Default Values
+Lesson 29: Default Values
 1) Multiple script tags in an html file results in all the js files being placed into one file and then being run.
 2) Variables with the same name in the same level of the execution context will be overriden by the last declared value.
 3) Many Javascript libraries with have a logical OR operator in the case that the value already exists in a previously loaded library.
