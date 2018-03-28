@@ -20,3 +20,5 @@ Lesson 33: JSON and Object Literals
 
 Lesson 34: Functions are Objects
 1) First Class Functions: Everything you can do with other types you can do with functions. Assign them to variables, pass them around create them on the fly.
+2) A function is just an object in Javascript. Hence, you can attach a primitive, object, function, name (or anonymous), and code.
+3) Code is just on of the properties that can be added to a function. The only difference is that it is invocable.
