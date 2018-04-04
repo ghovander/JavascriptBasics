@@ -26,4 +26,7 @@ Lesson 34: Functions are Objects
 Lesson 35: Function Statements and Function Expressions
 1) Expression: A unit of code that results in a value. It doesn't have to save to a variable.
 2) Statement: A unit of code that does work and does not return a value.
+3) Functional Programming: Programming with functions. Being able to pass them around.
 
+Lesson 36: By Value vs By Reference
+1)
